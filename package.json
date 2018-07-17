@@ -1,0 +1,20 @@
+{
+  "name": "wally-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-overlays": "^0.8.3",
+    "react-photo-gallery": "^6.0.28",
+    "react-scripts": "1.1.4",
+    "react-timer-component": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

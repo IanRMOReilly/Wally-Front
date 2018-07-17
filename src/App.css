@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+  width: 100%;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+.App-logo {
+  height: 50px;
+  float:left;
+}
+
+.App-header {
+  font-family: 'Chela One', cursive;
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  float:center;
+}
+
+.Score{
+  font-family: 'Coda Caption', sans-serif;
+  font-size: 5em;
+}
+
+.Score-Label{
+  font-family: 'Coda Caption', sans-serif;
+  font-size: 3em;
+}
+
+.next{
+  width: 100px;
+  height: 100px;
+  color: #222;
+}
+
+.side-by-side{
+  width: 100%;
+}
+.side-by-side, #right_block, #left_block {
+  display: inline-block;
+}
+
+#w_img{
+  width: 80%;
+}
+
+#left_block{
+  width: 78%;
+}
+
+#right_block{
+  width: 18%;
+  padding: 1%;
+}
+
+.right_half, #w_img {
+  width: 10%;
+}
+
+.left_half{
+  background-color: #F3F3F3;
+  border-radius: 10px;
+  margin:1%;
+  box-shadow: 5px 5px #E8E8E8;
+}
+
+.left_half, #w_img{
+  width: 100%;
+  float:left;
+  padding:0px;
+}
+
+.Vert div {
+    vertical-align: middle;
+}
+
+.human_game{
+  width: 95%;
+}
+
+.side-by-side, #human_game, #found_button {
+  display: inline-block;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.green_button {
+  font-family: 'Coda Caption', sans-serif;
+  border-color: #4CAF50;
+  color: white;
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+
+#found_button{
+  padding: 10px;
+}
+
+#start_button{
+  padding: 10px;
+}
+
+#timer{
+font-family: 'Coda Caption', sans-serif;
+}
+
+#countdown{
+  font-family: 'Coda Caption', sans-serif;
+  font-style: italic;
+  color: red;
+}
+
+#ai_feed_label{
+  font-family: 'Coda Caption', sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Chela+One|Coda+Caption:800');
